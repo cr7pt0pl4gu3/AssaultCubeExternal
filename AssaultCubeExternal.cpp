@@ -6,7 +6,7 @@ int main()
 	// Initialize module name
 	const wchar_t* moduleName {L"ac_client.exe"};
 	
-    // Get process id of the target process
+	// Get process id of the target process
 	const DWORD procId {getProcId(moduleName)};
 
 	// Get module base address
